@@ -16,7 +16,7 @@ Dự án này phân tích **Online Shoppers Purchasing Intention Dataset**, tậ
 
 ## 2. Nguồn Dataset và Mô tả
 
-Dataset được lấy từ UCI Machine Learning Repository, bao gồm **10 thuộc tính số** và **8 thuộc tính phân loại**, mỗi dòng tương ứng với **một phiên truy cập (session)** của người dùng.
+Dataset được lấy từ [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset?fbclid=IwY2xjawO6IuNleHRuA2FlbQIxMABicmlkETEwQlgzdzJER1N1cUgyQlRIc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrRl8Hx7KcVqOlgXqP4ePJypiUhL8BwtAMiHmGtYE-i0sRGStoostFlYF3uP_aem_U2L_zsv8pfH9aCDL2PKeHA), bao gồm **10 thuộc tính số** và **8 thuộc tính phân loại**, mỗi dòng tương ứng với **một phiên truy cập (session)** của người dùng.
 
 Dưới đây là bảng tổng hợp metadata của các thuộc tính chính trong dataset:
 
@@ -64,14 +64,16 @@ Dự án tập trung trả lời các câu hỏi nghiên cứu sau:
 * `04_Modeling.ipynb`: Xây dựng và huấn luyện mô hình dự đoán (Random Forest), đánh giá mô hình qua Confusion Matrix.
 * `05_Summary.ipynb`: Tổng kết dự án, đúc kết insight và định hướng phát triển trong tương lai.
 ```
+├── data ──├
+├          ├── online_shoppers_intention.csv
 ├── 01_Overview&DataCollection.ipynb  
 ├── 02_DataExploration.ipynb       
 ├── 03_DataAnalysis.ipynb         
 ├── 04_Modeling.ipynb           
-├── 05_Summary.ipynb                  
-├── data ──├
-├          ├── online_shoppers_intention.csv
-└── README.md
+├── 05_Summary.ipynb    
+├── min_ds-env.yml              
+├── README.md
+└── test.png
 ```
 
 ## 6. How to Run Instructions
